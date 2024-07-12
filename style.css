@@ -4,6 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -37,7 +38,14 @@ p {
   line-height: 1.5;
   text-align: center;
 }
-
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 .navigation-links {
   display: flex;
   margin-top: 40px;
